@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+:root{
+	--bg-negro:#000;
+	--color-negro:#323232;
+	--color-gris:#b7afa7;
+	--bg-icon:#f4f4f4;
+	--color-titulo:#222;
+}
+body{
+	font-family: 'Open Sans', sans-serif;	
+	font-size: 14px;
+	color: #555;
+}
+h1,h2,h3,h4,h5,h6,footer{
+	font-family: 'Open Sans', sans-serif;	
+}
+p{
+	font-family: 'Playfair Display', serif;
+}
+
+header{
+	background-color: var(--bg-negro);
+	text-align: center;
+}
+
+#hero{
+	background-image: url("../img/video-cover-home.jpg");
+	background-position: top center;
+	background-size: cover;
+	padding: 15% 0;
+}
+#hero h1{
+	color: #fff;
+	font-size: 60px;
+	font-weight: 300;
+}
+#hero p{
+	color: #fff;
+	font-size: 18px;
+}
+
+#hero .btn{
+	background-color: transparent;
+	border: 2px solid #fff;
+	border-radius: 40px;
+	padding: 10px 30px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+#hero .btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+.section{
+	padding: 7% 0;
+}
+
+#intro-about{
+	text-align: center;
+}
+
+#intro-about h2{
+	font-size: 40px;
+	color: #000;
+	font-weight: 300;
+	margin-bottom: 40px;
+}
+
+#intro-about p{
+	font-size: 17px;
+	margin-bottom: 40px;
+}
+
+#intro-about .btn{
+	background-color: #323232;
+	padding: 15px 30px;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+
+#about h2{
+	font-size: 70px;
+	font-weight: 400;
+	color: var(--color-negro);
+	text-align: center;
+}
+#about h3{
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--color-negro);
+	text-transform: uppercase;
+	margin-bottom: 20px;
+}
+#about p{
+	font-size: 15px;
+}
+#about{
+	border-top: 1px solid #eee;
+}
+
+#about.section{
+	padding-top: 50px;
+}
+
+#cinema{
+	text-align: center;
+	background-image: url("../img/bg-cta.jpg");
+	background-position: top center;
+	background-size: cover;
+	color: #fff;
+}
+.btn-play{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #fff;
+	border-radius: 100%;
+	color: #fff;
+	padding: 25px 0;
+}
+.btn-play:hover{
+	background-color: #ddd;
+	border-color: #ddd;
+}
+#cinema h2{
+	font-size: 42px;
+	font-weight: 300;
+	margin-top: 30px;
+}
+
+
+#films h2{
+	font-size: 35px;
+	text-align: center;
+	color: var(--color-negro);
+	font-weight: 300;
+}
+#films h3{
+	font-size: 20px;
+	text-align: center;
+	color: var(--color-gris);
+	font-style: italic;
+	margin: 40px 0 60px;
+}
+
+
+#hero.contact{
+	background-image: url("../img/bg-contact.jpg");
+	background-position: 10%;
+	padding: 12% 0;
+	text-align: center;
+}
+#hero.contact h1{
+	font-size: 40px;
+	margin-bottom: 35px;
+}
+#hero.contact p{
+	font-style: italic;
+}
+
+.info-icon{
+	background-color: var(--bg-icon);
+	text-align: center;
+	padding: 20% 0;
+}
+.info-icon i{
+	font-size: 60px;
+	color: var(--color-gris);
+}
+
+
+#contact-form h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: var(--color-titulo);
+	margin-bottom: 40px;
+}
+
+#contact-form input,
+#contact-form textarea{
+	border-radius: 0;
+	font-size: 12px;
+	background-color: #f2f4f8;
+	padding: 10px;
+	border: 0;
+}
+
+#contact-form .btn{
+	background-color: #000;
+	border-radius: 40px;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 12px 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	padding: 30px 0;
+	background-color: #000;
+	color: #a2a2a2;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
